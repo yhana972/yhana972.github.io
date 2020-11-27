@@ -372,7 +372,7 @@ footer {
     h1 {
         color: #fff;
         font-weight: 900;
-        font-size: 4em;
+        font-size: 3.5em;
         text-transform: uppercase;
         letter-spacing: 0.05em;
         line-height: 0.9em;
@@ -653,6 +653,15 @@ footer {
 
 .project-image {
     float: left;
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+
+    img{
+        padding: 50px;
+        max-width: 300px;
+        vertical-align: middle;
+    }
 }
 
 .project-info {
@@ -673,6 +682,10 @@ footer {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+    }
+
+    a{
+        color: $base-color;
     }
 }
 
