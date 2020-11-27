@@ -32,9 +32,10 @@
     ----- 1. Variables -----
     ------------------------
 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #f15a22;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -45,8 +46,8 @@ $background-alt: #f2f2f5;
 $border: #dcd9d9;
 
 // Define text colors
-$heading: #374054;
-$text: #74808a;
+$heading: #333333;
+$text: #666666;
 
 /*
     ---------------------
@@ -85,7 +86,7 @@ $text: #74808a;
 */
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 16px;
 
     &.active {
@@ -714,8 +715,8 @@ footer {
         display: inline-block;
         margin: 7px;
         padding: 5px 10px;
-        color: $heading;
-        background: darken($background-alt, 5%);
+        color: $background;
+        background: lighten($base-color, 15%);
         list-style: none;
         cursor: default;
         font-size: 1.2em;
